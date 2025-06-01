@@ -33,11 +33,14 @@ This project implements the frontend for a dynamic, node-based visual pipeline e
 **Text Node - Dynamic Features:**
 
 ![Image](https://github.com/user-attachments/assets/fbfbaaa3-6870-4283-94da-73a52d2e8000)
+
 ![Image](https://github.com/user-attachments/assets/9ffae4fd-106f-482f-b148-d1e976818db7)
 *(Caption: Demonstrating the Text Node's auto-resizing and dynamic input handles generated from `{{variable}}` syntax.)*
 
 **Pipeline Submission Feedback:**
+
 ![Image](https://github.com/user-attachments/assets/20ba4595-6646-4536-a4e7-9191184b57fe)
+
 ![Image](https://github.com/user-attachments/assets/0d06a846-e9c1-406b-805c-58650d68518a)
 *(Caption: Example of the alert displayed after submitting a pipeline, showing node/edge counts and DAG status from the backend.)*
 
