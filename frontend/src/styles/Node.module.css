@@ -1,0 +1,110 @@
+.customNode {
+  border: 1px solid #1d0b48;
+  border-radius: 8px;
+  background-color: #1d0b48;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  font-family: inherit;
+  color: #374151;
+}
+
+.customNode:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.customNode.selected {
+  border-color: #2e195d;
+  box-shadow: 0 0 0 2.5px #2e195d, 0 6px 10px -2px rgba(37, 99, 235, 0.2);
+}
+
+.customNodeHeader {
+  padding: 10px 14px;
+  border: 1px solid #430a89;
+  background-color: #430a89;
+  border-bottom: 1px solid #430a89;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: move;
+}
+
+.customNodeContent {
+  padding: 14px;
+  font-size: 13px;
+}
+
+.handle {
+  width: 12px !important;
+  height: 12px !important;
+  background: #9ca3af !important;
+  border: 2px solid white !important;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.handle:hover {
+  background: #bca1e4 !important;
+}
+
+.nodeInputGroup {
+  margin-bottom: 12px;
+}
+.nodeInputGroup:last-child {
+  margin-bottom: 0;
+}
+
+.nodeLabel {
+  padding: 4px 6px;
+  font-size: 12px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  align-items: center;
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-weight: 500;
+  background-color: #430a89;
+}
+
+.nodeInput,
+.nodeTextarea,
+.nodeSelect {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 13px;
+  padding: 8px 10px;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #000000;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-family: inherit;
+}
+
+.nodeInput::placeholder,
+.nodeTextarea::placeholder {
+  color: #000000;
+}
+
+.nodeInput:focus,
+.nodeTextarea:focus,
+.nodeSelect:focus {
+  outline: none;
+  border-color: #1d0b48;
+  box-shadow: 0 0 0 3px #1D0B48(59, 130, 246, 0.25);
+}
+
+.nodeTextarea {
+  resize: vertical;
+  min-height: 60px;
+  line-height: 1.5;
+  border-color: #1d0b48;
+}

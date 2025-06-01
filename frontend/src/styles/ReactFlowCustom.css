@@ -1,0 +1,100 @@
+.pipeline-ui-wrapper {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 75px - 65px);
+  overflow: hidden;
+  border-top: 1px solid #dee6e1;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.reactflow-wrapper {
+  flex-grow: 1;
+  height: 100%;
+  width: 100%;
+  background-color: #f8f9fa;
+  position: relative;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+.react-flow__controls {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  background-color: #f8f9fa;
+}
+
+.react-flow__controls-button {
+  background-color: transparent;
+  border-bottom: 1px solid #c48ecf;
+  fill: #1f0c4e;
+  transition: background-color 0.15s ease-in-out, fill 0.15s ease-in-out;
+}
+
+.react-flow__controls-button:hover {
+  background-color: #f3f4f6;
+  fill: #000000;
+}
+
+.react-flow__controls-button:last-child {
+  border-bottom: none;
+}
+
+.react-flow__minimap {
+  border-radius: 4px;
+  background-color: rgba(222, 222, 222, 0.9);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #b7b3c1;
+  border-radius: 10px;
+}
+
+.react-flow__minimap-node {
+  fill: #7a66b8;
+  stroke: none;
+}
+.react-flow__minimap-node.selected {
+  fill: #7a66b8;
+}
+
+.react-flow__edge-path,
+.react-flow__connection-path {
+  stroke-width: 2;
+  stroke: #7a66b8;
+}
+
+.react-flow__edge.selected .react-flow__edge-path,
+.react-flow__edge:focus .react-flow__edge-path,
+.react-flow__edge:focus-visible .react-flow__edge-path {
+  stroke: #0370fe;
+  stroke-width: 2.5;
+}
+
+.react-flow__handle {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  background: #b69ddd !important;
+  border: 2px solid #b69ddd !important;
+  box-shadow: 0 0 0 1px #b69ddd;
+}
+
+.react-flow__handle-connecting {
+  background: #917fd5 !important;
+  border-color: white !important;
+}
+
+.react-flow__handle-valid {
+  background: #7a66b8 !important;
+  border-color: white !important;
+}
+
+.react-flow__attribution {
+  font-size: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+
+.nodrag {
+  user-select: text;
+}
