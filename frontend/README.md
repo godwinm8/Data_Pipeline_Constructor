@@ -8,7 +8,7 @@ This project implements the frontend for a dynamic, node-based visual pipeline e
 
 **Note on Backend Interaction:** The "Submit Pipeline" feature in this live demo attempts to connect to a backend service expected to be running on `http://localhost:8000`. To test this specific functionality, please clone the full project repository and run the backend server locally as per the instructions in the `backend/README.md` file.
 
-##  ключевыеFeatures
+##  Features
 
 *   **Intuitive Drag-and-Drop Interface:** Easily add and arrange various node types on an infinite canvas.
 *   **Custom Node Abstraction:** A flexible `BaseNode` component allows for rapid development and consistent styling of diverse node types.
@@ -18,24 +18,25 @@ This project implements the frontend for a dynamic, node-based visual pipeline e
     *   **Auto-Resizing:** Automatically adjusts its height to fit the text content as users type.
     *   **Variable-Based Input Handles:** Dynamically creates input handles on the left side corresponding to `{{variableName}}` syntax within its text, allowing for templating and data injection.
 *   **Node Connectivity:** Visually connect nodes via input/output handles to define pipeline flow, with animated edges.
-*   **Modern & Unified Design:** A [**Your Chosen Theme Description, e.g., "responsive dark theme with indigo accents"**] ensures a visually appealing and consistent user experience, implemented with CSS Modules.
+*   **Modern & Unified Design:** A [**responsive dark theme with indigo accents**] ensures a visually appealing and consistent user experience, implemented with CSS Modules.
 *   **Pipeline Analysis Submission:** Allows users to submit the constructed pipeline (nodes and edges) to a backend for structural analysis (e.g., DAG validation).
 *   **Integrated React Flow Utilities:** Includes built-in controls for zoom/pan and a minimap for easy navigation.
 
 ## 📸 Screenshots
 
-*(Consider adding 2-4 key screenshots here)*
 
 **Main Editor View:**
-![Main Editor Interface](path/to/your/main_editor_screenshot.png)
+![Main Editor Interface](![Image](https://github.com/user-attachments/assets/61112baa-6c91-4e97-81df-a7f2d23e7ddf))
 *(Caption: The primary interface showing the node toolbar, canvas with a sample pipeline, controls, and minimap.)*
 
 **Text Node - Dynamic Features:**
-![Text Node in Action](path/to/your/text_node_screenshot.png)
+![Text Node in Action](![Image](https://github.com/user-attachments/assets/fbfbaaa3-6870-4283-94da-73a52d2e8000)
+![Image](https://github.com/user-attachments/assets/9ffae4fd-106f-482f-b148-d1e976818db7))
 *(Caption: Demonstrating the Text Node's auto-resizing and dynamic input handles generated from `{{variable}}` syntax.)*
 
 **Pipeline Submission Feedback:**
-![Pipeline Submission Alert](path/to/your/submission_alert_screenshot.png)
+![Pipeline Submission Alert](![Image](https://github.com/user-attachments/assets/20ba4595-6646-4536-a4e7-9191184b57fe)
+![Image](https://github.com/user-attachments/assets/0d06a846-e9c1-406b-805c-58650d68518a))
 *(Caption: Example of the alert displayed after submitting a pipeline, showing node/edge counts and DAG status from the backend.)*
 
 

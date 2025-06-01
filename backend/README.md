@@ -74,4 +74,4 @@ This Python FastAPI application provides backend services for analyzing the stru
 *   `__init__.py` (at `backend/` root): Makes the `backend` directory itself a package, aiding import resolution.
 *   `requirements.txt`: Lists Python package dependencies.
 
----
+
