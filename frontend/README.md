@@ -4,7 +4,7 @@ This project implements the frontend for a dynamic, node-based visual pipeline e
 
 ## ✨ Live Demo
 
-🚀 **[Explore the live application deployed on Vercel!](YOUR_VERCEL_LIVE_LINK_HERE)** 🚀
+🚀 **[Explore the live application deployed on Vercel!](https://data-pipeline-constructor.vercel.app/)** 🚀
 
 **Note on Backend Interaction:** The "Submit Pipeline" feature in this live demo attempts to connect to a backend service expected to be running on `http://localhost:8000`. To test this specific functionality, please clone the full project repository and run the backend server locally as per the instructions in the `backend/README.md` file.
 
