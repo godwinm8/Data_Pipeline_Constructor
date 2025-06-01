@@ -26,17 +26,19 @@ This project implements the frontend for a dynamic, node-based visual pipeline e
 
 
 **Main Editor View:**
-![Main Editor Interface](![Image](https://github.com/user-attachments/assets/61112baa-6c91-4e97-81df-a7f2d23e7ddf))
+
+![Image](https://github.com/user-attachments/assets/61112baa-6c91-4e97-81df-a7f2d23e7ddf)
 *(Caption: The primary interface showing the node toolbar, canvas with a sample pipeline, controls, and minimap.)*
 
 **Text Node - Dynamic Features:**
-![Text Node in Action](![Image](https://github.com/user-attachments/assets/fbfbaaa3-6870-4283-94da-73a52d2e8000)
-![Image](https://github.com/user-attachments/assets/9ffae4fd-106f-482f-b148-d1e976818db7))
+
+![Image](https://github.com/user-attachments/assets/fbfbaaa3-6870-4283-94da-73a52d2e8000)
+![Image](https://github.com/user-attachments/assets/9ffae4fd-106f-482f-b148-d1e976818db7)
 *(Caption: Demonstrating the Text Node's auto-resizing and dynamic input handles generated from `{{variable}}` syntax.)*
 
 **Pipeline Submission Feedback:**
-![Pipeline Submission Alert](![Image](https://github.com/user-attachments/assets/20ba4595-6646-4536-a4e7-9191184b57fe)
-![Image](https://github.com/user-attachments/assets/0d06a846-e9c1-406b-805c-58650d68518a))
+![Image](https://github.com/user-attachments/assets/20ba4595-6646-4536-a4e7-9191184b57fe)
+![Image](https://github.com/user-attachments/assets/0d06a846-e9c1-406b-805c-58650d68518a)
 *(Caption: Example of the alert displayed after submitting a pipeline, showing node/edge counts and DAG status from the backend.)*
 
 
